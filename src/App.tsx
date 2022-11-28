@@ -68,7 +68,7 @@ function App() {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(sumOfNumbers),
+          body: JSON.stringify({ sum: sumOfNumbers }),
         }
       );
 
